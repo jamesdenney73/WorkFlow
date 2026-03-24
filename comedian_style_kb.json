@@ -1,0 +1,1533 @@
+{
+  "meta": {
+    "title": "Comedian Writing Style Knowledge Base",
+    "subtitle": "For use in Hatz AI Workflows | AllTech IT Solutions",
+    "last_updated": "2026-03",
+    "version": "1.0"
+  },
+  "global": {
+    "strict_enforcement": true,
+    "guardrails": {
+      "rule_summary": "This is a hard rule with no exceptions.",
+      "never_reference_by_name": [
+        "Any fictional character, even if created by the comedian being emulated",
+        "Any TV show, movie, book, or branded title",
+        "Any catchphrase, lyric, or scripted material associated with the source"
+      ],
+      "disallowed_first_person_framing": [
+        "my old character...",
+        "like I used to say on my show...",
+        "as my buddy [character name] would put it..."
+      ],
+      "replacement_instruction": "Invent a wholly new character name or scenario that captures the same emotional or comedic feeling without referencing any real intellectual property.",
+      "core_principle": "The reader should feel the style, not recognize the source material."
+    }
+  },
+  "comedians": {
+    "george_carlin": {
+      "id": "george_carlin",
+      "name": "George Carlin",
+      "aliases": [
+        "george carlin",
+        "george carlin"
+      ],
+      "era": {
+        "start": "1960s",
+        "end": "2008",
+        "label": "1960s – 2008"
+      },
+      "style_summary": "George Carlin wrote like a man who had been quietly furious with the world for decades and finally decided to say it out loud — slowly, deliberately, and with a scalpel. His humor is philosophical, confrontational, and deeply structural. He builds arguments disguised as jokes.",
+      "traits": {
+        "tone": [
+          "Sharp",
+          "cynical",
+          "intelligent",
+          "and occasionally contemptuous — but never random. Every word is chosen. There is no filler"
+        ],
+        "structure": [
+          "Opens with an observation that sounds reasonable",
+          "Escalates it to a logical extreme that reveals absurdity",
+          "Lands with a statement that reframes the entire setup",
+          "Often ends with a short, punchy sentence — 5 words or fewer"
+        ],
+        "language": [
+          "Uses repetition and lists with deliberate escalation",
+          "Favors plain, blunt Anglo-Saxon words over fancy vocabulary",
+          "Rhetorical questions used as traps (\"Ever notice how...\")",
+          "Pivots suddenly from funny to dead serious for impact",
+          "Italics or emphasis carry weight — use sparingly"
+        ],
+        "best_for": [
+          "Quote cards",
+          "thought-provoking captions",
+          "opinion posts"
+        ],
+        "platforms": [
+          "linkedin",
+          "facebook",
+          "x"
+        ],
+        "audience": [
+          "Adults 35+",
+          "critical thinkers",
+          "skeptics"
+        ]
+      },
+      "example_voice": "\"They tell you to trust the process. What they don't mention is that the process was designed by people who don't trust you. Think about that the next time someone hands you a form to fill out in triplicate.\"",
+      "guardrails": [
+        "Do NOT reference any of his recorded specials or album titles by name",
+        "Do NOT use his famous \"seven words\" framing or any variation of it",
+        "Do NOT replicate lists of words — capture the escalation structure instead"
+      ],
+      "content_rating": "mature",
+      "workflow_categories": [
+        "philosophical_provocative"
+      ],
+      "tags": [
+        "and_occasionally_contemptuous_—_but_never_random._every_word_is_chosen._there_is_no_filler",
+        "cynical",
+        "intelligent",
+        "opinion_posts",
+        "philosophical_provocative",
+        "quote_cards",
+        "sharp",
+        "thought_provoking_captions"
+      ]
+    },
+    "richard_pryor": {
+      "id": "richard_pryor",
+      "name": "Richard Pryor",
+      "aliases": [
+        "richard pryor",
+        "richard pryor"
+      ],
+      "era": {
+        "start": "1960s",
+        "end": "2005",
+        "label": "1960s – 2005"
+      },
+      "style_summary": "Richard Pryor wrote from the inside out. His humor is confessional, visceral, and deeply personal. He used pain as the raw material and comedy as the delivery system. His style reads like someone telling you the truth they weren't supposed to tell.",
+      "traits": {
+        "tone": [
+          "Raw",
+          "vulnerable",
+          "urgent",
+          "and deeply human. Even when exaggerated",
+          "it feels autobiographical"
+        ],
+        "structure": [
+          "Begins with a personal or specific situation (never abstract)",
+          "Escalates through emotional honesty — embarrassment, fear, or revelation",
+          "Punchline arrives as a moment of self-awareness or absurd truth",
+          "Voice shifts mid-post between narrator and character"
+        ],
+        "language": [
+          "Short, punchy sentences alternating with longer emotional ones",
+          "Heavy use of dialogue and voice shifts to simulate characters",
+          "Street-level language — informal, direct, unpolished by design",
+          "Humor builds through recognition (\"You know how it is when...\")"
+        ],
+        "best_for": [
+          "Storytelling posts",
+          "relatable personal anecdotes",
+          "emotional hooks"
+        ],
+        "platforms": [
+          "facebook",
+          "instagram",
+          "x"
+        ],
+        "audience": [
+          "Broad",
+          "resonates across demographics when topic is universal"
+        ]
+      },
+      "example_voice": "\"I went to the doctor last week. He said, 'You need to slow down.' I said, 'Slow down? Man, I've been slow my whole life — nothing good came from it.' He wrote something in his little notepad and I could tell it wasn't a compliment.\"",
+      "guardrails": [
+        "Do NOT reference specific biographical events by name",
+        "Do NOT replicate voices or impressions tied to real public figures",
+        "Invent character names and scenarios — draw from the emotional truth, not the specific incident"
+      ],
+      "content_rating": "pg_13",
+      "workflow_categories": [
+        "storytelling_anecdotal"
+      ],
+      "tags": [
+        "and_deeply_human._even_when_exaggerated",
+        "emotional_hooks",
+        "it_feels_autobiographical",
+        "raw",
+        "relatable_personal_anecdotes",
+        "storytelling_anecdotal",
+        "storytelling_posts",
+        "urgent",
+        "vulnerable"
+      ]
+    },
+    "jerry_seinfeld": {
+      "id": "jerry_seinfeld",
+      "name": "Jerry Seinfeld",
+      "aliases": [
+        "jerry seinfeld",
+        "jerry seinfeld"
+      ],
+      "era": {
+        "start": "1970s",
+        "end": "Present",
+        "label": "1970s – Present"
+      },
+      "style_summary": "Jerry Seinfeld is the architect of observational humor. His writing is meticulous, clean, and built around the mundane. He finds friction in everyday life and turns it into a structured argument. His style is almost journalistic in its precision.",
+      "traits": {
+        "tone": [
+          "Curious",
+          "slightly exasperated",
+          "conversational",
+          "and always controlled. Never angry — more like genuinely puzzled by humanity"
+        ],
+        "structure": [
+          "Opens with a specific, ordinary situation",
+          "Asks \"why\" or \"what is going on with\" that situation",
+          "Builds a case with tight, logical escalation",
+          "Punchline reframes the mundane thing as absurd or revealing"
+        ],
+        "language": [
+          "Short to medium sentence length — no run-ons",
+          "Questions used to drive the reader forward",
+          "Precise word choice — never vague; always specific",
+          "Rhythm matters: two short sentences, one long, then the punch",
+          "Avoids profanity; relies entirely on structure for impact"
+        ],
+        "best_for": [
+          "Observation-style captions",
+          "\"shower thought\" posts",
+          "relatable humor"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "facebook"
+        ],
+        "audience": [
+          "Wide general audience",
+          "especially effective for brand voice"
+        ]
+      },
+      "example_voice": "\"Airport security now makes you take off your shoes before you board. Nobody questions this. We all just do it. We've collectively agreed that our shoes are the enemy. Not the bag with the wires sticking out of it — the shoes.\"",
+      "guardrails": [
+        "Do NOT reference his comedy series, streaming specials, or touring show titles",
+        "Do NOT use the \"What is the deal with...\" phrasing — it is trademarked culturally to him; paraphrase the curiosity differently",
+        "Capture the structure and the mundane subject matter — not the catchphrase"
+      ],
+      "content_rating": "g_rated",
+      "workflow_categories": [
+        "observational_clean"
+      ],
+      "tags": [
+        "and_always_controlled._never_angry_—_more_like_genuinely_puzzled_by_humanity",
+        "conversational",
+        "curious",
+        "observation_style_captions",
+        "observational_clean",
+        "relatable_humor",
+        "shower_thought_posts",
+        "slightly_exasperated"
+      ]
+    },
+    "robin_williams": {
+      "id": "robin_williams",
+      "name": "Robin Williams",
+      "aliases": [
+        "robin williams",
+        "robin williams"
+      ],
+      "era": {
+        "start": "1970s",
+        "end": "2014",
+        "label": "1970s – 2014"
+      },
+      "style_summary": "Robin Williams wrote (and performed) in a state of controlled chaos. His humor bounced between rapid-fire absurdity and sudden, disarming sincerity. In written form, his style is layered — jokes within jokes, with an emotional undercurrent that sneaks up on the reader.",
+      "traits": {
+        "tone": [
+          "Manic",
+          "warm",
+          "unpredictable",
+          "and ultimately kind. Even at his most absurd",
+          "there is humanity underneath"
+        ],
+        "structure": [
+          "Starts at one place and ends somewhere completely different",
+          "Uses tangents as the structure (not a bug — a feature)",
+          "Often lands on something unexpectedly tender after a run of absurdity",
+          "Lists are used for comedic velocity — pile up quickly, then stop cold"
+        ],
+        "language": [
+          "Energetic syntax — dashes, parentheticals, sudden gear shifts",
+          "Voice shifts and character asides (mark them clearly in writing)",
+          "Mixing of registers: highbrow reference next to street-level slang",
+          "Ends with warmth, not cynicism"
+        ],
+        "best_for": [
+          "High-energy captions",
+          "multi-idea posts",
+          "storytelling with a twist"
+        ],
+        "platforms": [
+          "facebook",
+          "instagram",
+          "tiktok"
+        ],
+        "audience": [
+          "All ages",
+          "especially resonant with nostalgic audiences 30+"
+        ]
+      },
+      "example_voice": "\"Spring cleaning, they call it. Which implies there's a 'spring dirty' season nobody warned you about. Suddenly you're holding a lamp you don't remember buying, a manual for a device you no longer own, and a sense of profound regret — which, surprisingly, cannot be donated.\"",
+      "guardrails": [
+        "Do NOT reference any film title, character name, or impression he was known for",
+        "Do NOT replicate celebrity impressions — invent fictional figures instead",
+        "Capture the velocity and the warmth; avoid pure chaos with no landing"
+      ],
+      "content_rating": "pg",
+      "workflow_categories": [
+        "high_energy_motivational"
+      ],
+      "tags": [
+        "and_ultimately_kind._even_at_his_most_absurd",
+        "high_energy_captions",
+        "high_energy_motivational",
+        "manic",
+        "multi_idea_posts",
+        "storytelling_with_a_twist",
+        "there_is_humanity_underneath",
+        "unpredictable",
+        "warm"
+      ]
+    },
+    "eddie_murphy": {
+      "id": "eddie_murphy",
+      "name": "Eddie Murphy",
+      "aliases": [
+        "eddie murphy",
+        "eddie murphy"
+      ],
+      "era": {
+        "start": "1980s",
+        "end": "Present",
+        "label": "1980s – Present"
+      },
+      "style_summary": "Eddie Murphy's written style is bold, confident, and culturally alive. His humor comes from a place of total self-assurance. He observes the world with wide eyes and reports back with maximum energy. He's a storyteller who commands the room — even in text.",
+      "traits": {
+        "tone": [
+          "High-energy",
+          "confident",
+          "self-aware",
+          "and culturally sharp. He knows he's funny before the joke is finished"
+        ],
+        "structure": [
+          "Establishes a clear scene or cultural moment fast",
+          "Escalates with increasing specificity and energy",
+          "Punchline comes with confidence — no hedging",
+          "Often uses callback structure: sets something up early, pays it off late"
+        ],
+        "language": [
+          "Exclamatory phrasing — conveys performance energy on the page",
+          "Short declarative sentences for impact between longer ones",
+          "Pop culture awareness baked into the framing",
+          "Uses \"man,\" \"look,\" and similar direct-address words to pull reader in"
+        ],
+        "best_for": [
+          "Hype posts",
+          "cultural commentary",
+          "high-energy storytelling"
+        ],
+        "platforms": [
+          "instagram",
+          "facebook",
+          "x"
+        ],
+        "audience": [
+          "25–55",
+          "strong resonance with urban and pop-culture audiences"
+        ]
+      },
+      "example_voice": "\"People act like they've never had a bad day at work. I had a whole career of bad days at work before anyone knew my name. The difference is I never let a bad day convince me I wasn't the best thing walking through that door. You have to believe that before anyone else does.\"",
+      "guardrails": [
+        "Do NOT reference his films, characters, or early TV appearances by name",
+        "Do NOT replicate specific bits or routines — capture the confidence and cultural awareness instead"
+      ],
+      "content_rating": "pg_13",
+      "workflow_categories": [
+        "storytelling_anecdotal"
+      ],
+      "tags": [
+        "and_culturally_sharp._he_knows_he's_funny_before_the_joke_is_finished",
+        "confident",
+        "cultural_commentary",
+        "high-energy",
+        "high_energy_storytelling",
+        "hype_posts",
+        "self-aware",
+        "storytelling_anecdotal"
+      ]
+    },
+    "dave_chappelle": {
+      "id": "dave_chappelle",
+      "name": "Dave Chappelle",
+      "aliases": [
+        "dave chappelle",
+        "dave chappelle"
+      ],
+      "era": {
+        "start": "1990s",
+        "end": "Present",
+        "label": "1990s – Present"
+      },
+      "style_summary": "Dave Chappelle writes at the intersection of sociology and stand-up. He uses storytelling to examine race, power, and culture — but always through a comedic lens that makes the reader feel like they're in on something. His humor invites discomfort and then rewards it with insight.",
+      "traits": {
+        "tone": [
+          "Thoughtful",
+          "provocative",
+          "conversational",
+          "and unpredictable. He can pivot from hilarious to genuinely unsettling within a single paragraph"
+        ],
+        "structure": [
+          "Opens with a story or scenario that seems casual",
+          "Introduces a tension or contradiction midway through",
+          "Escalates to a reveal that reframes everything before it",
+          "Punchline often contains a truth nobody asked for but everyone needed"
+        ],
+        "language": [
+          "Long, winding sentences that reward patience",
+          "Uses \"you know what I mean?\" and similar phrases to create intimacy",
+          "Mixes formal observation with street-level language deliberately",
+          "Silence and pacing implied through paragraph breaks and short sentences"
+        ],
+        "best_for": [
+          "Thought-provoking posts",
+          "conversation-starter captions",
+          "op-ed style"
+        ],
+        "platforms": [
+          "facebook",
+          "x",
+          "linkedin"
+        ],
+        "audience": [
+          "Adults 25–50",
+          "engaged",
+          "intellectually curious readers"
+        ]
+      },
+      "example_voice": "\"People get real upset when you point out that the rules apply differently depending on who you are. Not because they don't know it's true. They know. They're upset because you said it out loud, and now somebody has to respond.\"",
+      "guardrails": [
+        "Do NOT reference his sketch show, specials, or specific recurring bits",
+        "Do NOT recreate character voices tied to his known work — invent new ones",
+        "Capture the social observation angle; avoid replicating controversial specific positions"
+      ],
+      "content_rating": "pg_13",
+      "workflow_categories": [
+        "philosophical_provocative"
+      ],
+      "tags": [
+        "and_unpredictable._he_can_pivot_from_hilarious_to_genuinely_unsettling_within_a_single_paragraph",
+        "conversation_starter_captions",
+        "conversational",
+        "op_ed_style",
+        "philosophical_provocative",
+        "provocative",
+        "thought_provoking_posts",
+        "thoughtful"
+      ]
+    },
+    "chris_rock": {
+      "id": "chris_rock",
+      "name": "Chris Rock",
+      "aliases": [
+        "chris rock",
+        "chris rock"
+      ],
+      "era": {
+        "start": "1990s",
+        "end": "Present",
+        "label": "1990s – Present"
+      },
+      "style_summary": "Chris Rock writes like a prosecutor making a closing argument — except the jury is laughing the whole time. His observations are tight, his logic is airtight, and his punchlines land like verdicts. He simplifies complex social dynamics into clear, sharp sentences.",
+      "traits": {
+        "tone": [
+          "Assertive",
+          "clear-eyed",
+          "occasionally outraged — but always in control. He doesn't ask questions; he makes declarations"
+        ],
+        "structure": [
+          "States a position immediately — no slow warm-up",
+          "Backs it up with a sharp observation or contrast",
+          "Escalates with a second, harder-hitting example",
+          "Closes with a one-line verdict that lands clean"
+        ],
+        "language": [
+          "Short, declarative sentences — almost no passive voice",
+          "Heavy use of contrast (\"On one hand... but then...\")",
+          "Repetition of key phrases for emphasis and rhythm",
+          "Strong verbs; no wasted adjectives"
+        ],
+        "best_for": [
+          "Hot-take posts",
+          "social commentary",
+          "punchy opinion captions"
+        ],
+        "platforms": [
+          "x",
+          "facebook",
+          "instagram"
+        ],
+        "audience": [
+          "25–55",
+          "broad cultural appeal",
+          "strong engagement driver"
+        ]
+      },
+      "example_voice": "\"Nobody wants to talk about effort anymore. They want to talk about passion. Passion is great. But passion without effort is just a hobby you're emotional about.\"",
+      "guardrails": [
+        "Do NOT reference his specials, tours, or any incidents involving real public figures",
+        "Capture his declarative, prosecutorial rhythm — not specific routines"
+      ],
+      "content_rating": "pg_13",
+      "workflow_categories": [
+        "observational_clean"
+      ],
+      "tags": [
+        "assertive",
+        "clear-eyed",
+        "hot_take_posts",
+        "observational_clean",
+        "occasionally_outraged_—_but_always_in_control._he_doesn't_ask_questions;_he_makes_declarations",
+        "punchy_opinion_captions",
+        "social_commentary"
+      ]
+    },
+    "bill_hicks": {
+      "id": "bill_hicks",
+      "name": "Bill Hicks",
+      "aliases": [
+        "bill hicks",
+        "bill hicks"
+      ],
+      "era": {
+        "start": "1980s",
+        "end": "1994",
+        "label": "1980s – 1994"
+      },
+      "style_summary": "Bill Hicks wrote like an angry prophet with a punchline. His humor is philosophical, anti-establishment, and deeply sincere. He believed comedy should challenge and disturb — not comfort. His writing feels like a lecture from someone who genuinely cares how the world turns out.",
+      "traits": {
+        "tone": [
+          "Passionate",
+          "sardonic",
+          "intelligent",
+          "and confrontational. Not mean — but relentlessly honest about what he saw as hypocrisy",
+          "mediocrity"
+        ],
+        "structure": [
+          "Opens with an inciting observation or provocation",
+          "Builds an argument with mounting frustration",
+          "Reaches a peak of absurdity or anger",
+          "Lands with a reframe that reveals the deeper philosophical point"
+        ],
+        "language": [
+          "Long rhetorical builds with sudden deflations",
+          "Repetition used for emphasis, not rhythm",
+          "Mixes sharp intellect with raw bluntness",
+          "Dark imagery used to illuminate a point, not for shock alone"
+        ],
+        "best_for": [
+          "Provocative opinion posts",
+          "anti-establishment commentary",
+          "\"unpopular opinion\" style content"
+        ],
+        "platforms": [
+          "x",
+          "facebook",
+          "reddit"
+        ],
+        "audience": [
+          "Adults 30+",
+          "thinkers who distrust mainstream narratives"
+        ]
+      },
+      "example_voice": "\"We spend enormous amounts of money making sure people can buy things faster. Not better things. Not more meaningful things. Just faster. Speed is the value we've all agreed to worship without ever holding a vote on it.\"",
+      "guardrails": [
+        "Do NOT reference his recorded albums or specials by name",
+        "His content can be edgy — use the philosophical angle, not the shock angle",
+        "Keep posts purposeful; his style only works when there's a real point"
+      ],
+      "content_rating": "mature",
+      "workflow_categories": [
+        "philosophical_provocative"
+      ],
+      "tags": [
+        "and_confrontational._not_mean_—_but_relentlessly_honest_about_what_he_saw_as_hypocrisy",
+        "anti_establishment_commentary",
+        "intelligent",
+        "mediocrity",
+        "passionate",
+        "philosophical_provocative",
+        "provocative_opinion_posts",
+        "sardonic"
+      ]
+    },
+    "mitch_hedberg": {
+      "id": "mitch_hedberg",
+      "name": "Mitch Hedberg",
+      "aliases": [
+        "mitch hedberg",
+        "mitch hedberg"
+      ],
+      "era": {
+        "start": "1990s",
+        "end": "2005",
+        "label": "1990s – 2005"
+      },
+      "style_summary": "Mitch Hedberg was the purest one-liner writer in modern comedy. His jokes are complete, self-contained, and almost haiku-like in their economy. He found unexpected angles on completely ordinary things and expressed them in the fewest possible words.",
+      "traits": {
+        "tone": [
+          "Laid-back",
+          "dreamy",
+          "slightly stoned-sounding even in text. Never urgent. The absurdity sneaks up on you"
+        ],
+        "structure": [
+          "Single sentence or two-sentence max",
+          "Setup: names an ordinary object or situation",
+          "Punchline: applies logic from an entirely unexpected direction",
+          "The humor lives in the gap between the expectation and the angle chosen"
+        ],
+        "language": [
+          "Extremely short sentences — no filler words",
+          "Often uses \"I\" as the subject — personal framing but universal feeling",
+          "Present tense almost exclusively",
+          "No escalation — the whole joke happens at once"
+        ],
+        "best_for": [
+          "One-liner posts",
+          "quote cards",
+          "caption-only posts",
+          "X (Twitter)"
+        ],
+        "platforms": [
+          "x",
+          "instagram (single image with text)",
+          "threads"
+        ],
+        "audience": [
+          "All ages",
+          "very high shareability"
+        ]
+      },
+      "example_voice": "\"An escalator can never be out of order. It can only be a staircase. No wait — that one's mine. I mean: a speed bump is just a pothole that went to management.\"",
+      "guardrails": [
+        "Do NOT quote his actual jokes — they are copyright protected",
+        "The style is the one-liner structure and the unexpected logical angle",
+        "Keep it short; if it runs over two sentences, it's not Hedberg-style"
+      ],
+      "content_rating": null,
+      "workflow_categories": [
+        "short_form_one_liner"
+      ],
+      "tags": [
+        "caption_only_posts",
+        "dreamy",
+        "laid-back",
+        "one_liner_posts",
+        "quote_cards",
+        "short_form_one_liner",
+        "slightly_stoned-sounding_even_in_text._never_urgent._the_absurdity_sneaks_up_on_you"
+      ]
+    },
+    "steven_wright": {
+      "id": "steven_wright",
+      "name": "Steven Wright",
+      "aliases": [
+        "steven wright",
+        "steven wright"
+      ],
+      "era": {
+        "start": "1980s",
+        "end": "Present",
+        "label": "1980s – Present"
+      },
+      "style_summary": "Steven Wright is the master of deadpan non-sequitur. His humor is dry, minimalist, and operates on a logic slightly offset from reality. His jokes sound like the thoughts of a man who fell asleep during a philosophy class and woke up funnier than everyone else.",
+      "traits": {
+        "tone": [
+          "Flat",
+          "monotone in spirit",
+          "quietly absurd. No excitement. No urgency. Just the observation",
+          "delivered like a weather report"
+        ],
+        "structure": [
+          "One sentence. Maybe two. Never three.",
+          "States something that sounds almost reasonable",
+          "Reveals a logical impossibility or contradiction with zero fanfare",
+          "Ends. No explanation. The reader does the work."
+        ],
+        "language": [
+          "Extremely flat sentence construction — subject, verb, absurdity",
+          "No exclamation points. Ever.",
+          "Simple vocabulary — the absurdity comes from logic, not language",
+          "Often begins with \"I\" followed by an mundane action"
+        ],
+        "best_for": [
+          "One-liner posts",
+          "quote cards",
+          "filler content with high engagement"
+        ],
+        "platforms": [
+          "x",
+          "instagram"
+        ],
+        "audience": [
+          "All ages",
+          "extremely high shareability due to brevity"
+        ]
+      },
+      "example_voice": "\"I have a map of the world. It's actual size. It's really hard to fold.\"  \"I bought some batteries, but they weren't included. So I had to buy them again.\"",
+      "guardrails": [
+        "Do NOT quote his actual material — style is the deadpan non-sequitur structure",
+        "Keep sentences short and flat — resist the urge to explain or expand",
+        "The humor collapses if you add energy or enthusiasm to the writing"
+      ],
+      "content_rating": "g_rated",
+      "workflow_categories": [
+        "short_form_one_liner"
+      ],
+      "tags": [
+        "delivered_like_a_weather_report",
+        "flat",
+        "monotone_in_spirit",
+        "one_liner_posts",
+        "quietly_absurd._no_excitement._no_urgency._just_the_observation",
+        "quote_cards",
+        "short_form_one_liner"
+      ]
+    },
+    "norm_macdonald": {
+      "id": "norm_macdonald",
+      "name": "Norm Macdonald",
+      "aliases": [
+        "norm macdonald",
+        "norm macdonald"
+      ],
+      "era": {
+        "start": "1990s",
+        "end": "2021",
+        "label": "1990s – 2021"
+      },
+      "style_summary": "Norm Macdonald was the anti-comedian's comedian. His written style is subversive in the deepest sense — he weaponizes the structure of the joke itself. He often pretended a joke wasn't working, then revealed that was the joke. His humor rewards close reading and punishes skimming.",
+      "traits": {
+        "tone": [
+          "Deadpan",
+          "awkward",
+          "deliberately clunky —",
+          "then suddenly brilliant. He performed incompetence so well that competence became the punchline"
+        ],
+        "structure": [
+          "Begins with an overly formal or oddly worded setup",
+          "Proceeds in a direction that seems wrong or pointless",
+          "The punchline either arrives very late or appears to not arrive at all",
+          "Often contains a second, hidden layer that rewards re-reading"
+        ],
+        "language": [
+          "Deliberately awkward word choices (\"it was at this juncture that...\")",
+          "Run-on sentences used for comedic effect",
+          "Anti-punchlines that refuse to satisfy the setup — intentionally",
+          "Callbacks buried deep in the text"
+        ],
+        "best_for": [
+          "Subversive humor",
+          "long-form posts that reward reading to the end",
+          "anti-joke formats"
+        ],
+        "platforms": [
+          "x",
+          "facebook",
+          "newsletter"
+        ],
+        "audience": [
+          "Comedy-savvy readers 25–45",
+          "high engagement from fellow fans"
+        ]
+      },
+      "example_voice": "\"A man walks into a library and asks for books about paranoia. The librarian whispers, 'They're right behind you.' The man, however, was hard of hearing, and simply checked out a book on gardening. It was, by all accounts, a wonderful afternoon.\"",
+      "guardrails": [
+        "Do NOT reference his television appearances, talk show desk stories, or weekend segment work",
+        "The style lives in the subversion of the joke structure — not in any specific joke he told",
+        "Avoid impersonating his voice directly; capture the anti-structure instead"
+      ],
+      "content_rating": "mature",
+      "workflow_categories": [
+        "short_form_one_liner",
+        "meta_literary"
+      ],
+      "tags": [
+        "anti_joke_formats",
+        "awkward",
+        "deadpan",
+        "deliberately_clunky_—",
+        "meta_literary",
+        "short_form_one_liner",
+        "subversive_humor",
+        "then_suddenly_brilliant._he_performed_incompetence_so_well_that_competence_became_the_punchline"
+      ]
+    },
+    "ellen_degeneres": {
+      "id": "ellen_degeneres",
+      "name": "Ellen DeGeneres",
+      "aliases": [
+        "ellen degeneres",
+        "ellen degeneres"
+      ],
+      "era": {
+        "start": "1980s",
+        "end": "Present",
+        "label": "1980s – Present"
+      },
+      "style_summary": "Ellen DeGeneres writes with warmth, disarming relatability, and a light touch. Her humor doesn't punch — it nudges. She finds the absurdity in everyday situations and frames it with kindness. Her style is the most universally accessible on this list.",
+      "traits": {
+        "tone": [
+          "Warm",
+          "friendly",
+          "slightly self-deprecating",
+          "and inclusive. Nobody is the villain in an Ellen joke — including her"
+        ],
+        "structure": [
+          "Opens with a relatable, ordinary situation",
+          "Lightly escalates the awkwardness or absurdity",
+          "Lands with a gentle, self-aware observation",
+          "Often ends with an inclusive \"we've all been there\" sentiment"
+        ],
+        "language": [
+          "Conversational, flowing sentences — reads like someone talking to you",
+          "Self-deprecation used generously — she's always part of the joke",
+          "Light questions to draw the reader in (\"You know that moment when...?\")",
+          "Positive framing even when the subject is frustrating"
+        ],
+        "best_for": [
+          "Brand-safe humor",
+          "broad audience content",
+          "feel-good engagement"
+        ],
+        "platforms": [
+          "facebook",
+          "instagram",
+          "linkedin"
+        ],
+        "audience": [
+          "All ages",
+          "especially effective for 35–65 demographic"
+        ]
+      },
+      "example_voice": "\"I tried to set up my new smart home device and it asked me seventeen security questions. I got three wrong. It was my own house. The house won. I now knock before entering.\"",
+      "guardrails": [
+        "Do NOT reference her talk show, guests, or game segments by name",
+        "Avoid any content that could read as mean-spirited — entirely off-brand",
+        "Keep it warm and universal; her style fails if it alienates anyone"
+      ],
+      "content_rating": "g_rated",
+      "workflow_categories": [
+        "warm_universal"
+      ],
+      "tags": [
+        "and_inclusive._nobody_is_the_villain_in_an_ellen_joke_—_including_her",
+        "brand_safe_humor",
+        "broad_audience_content",
+        "feel_good_engagement",
+        "friendly",
+        "slightly_self-deprecating",
+        "warm",
+        "warm_universal"
+      ]
+    },
+    "jim_carrey": {
+      "id": "jim_carrey",
+      "name": "Jim Carrey",
+      "aliases": [
+        "jim carrey",
+        "jim carrey"
+      ],
+      "era": {
+        "start": "1980s",
+        "end": "Present",
+        "label": "1980s – Present"
+      },
+      "style_summary": "Jim Carrey's written style is elastic, chaotic, and surprisingly literary. He exaggerates everything — but with intention. His humor is physical in spirit: you can feel the energy bending and stretching in the text. He also has a philosophical, almost poetic side that breaks through the absurdity.",
+      "traits": {
+        "tone": [
+          "Frenetic",
+          "maximalist",
+          "warm-chaotic — then suddenly quiet",
+          "sincere. Like a cartoon that pauses to give you advice"
+        ],
+        "structure": [
+          "Launches immediately into exaggeration",
+          "Piles on imagery and escalation at high speed",
+          "Often stops abruptly for a sincere one-liner",
+          "Ends either on absurdity or unexpected warmth — rarely in the middle"
+        ],
+        "language": [
+          "Heavy use of hyperbole (\"the most,\" \"absolutely,\" \"completely\")",
+          "Vivid, physical imagery even in non-physical situations",
+          "Sudden tonal shift from chaos to sincerity is the signature move",
+          "Uses all caps sparingly but effectively for emphasis"
+        ],
+        "best_for": [
+          "High-energy brand voice",
+          "inspirational-absurd crossover posts",
+          "entertainment content"
+        ],
+        "platforms": [
+          "instagram",
+          "facebook",
+          "x"
+        ],
+        "audience": [
+          "20–50",
+          "fans of expressive",
+          "high-energy content"
+        ]
+      },
+      "example_voice": "\"I used to rehearse confidence in the mirror every morning. Full commitment. Eye contact. Power stance. Then I'd walk outside and trip on a completely flat sidewalk. But here's the thing — I got up with EXACTLY the same energy. That's the secret.\"",
+      "guardrails": [
+        "Do NOT reference any of his films, characters, or physical comedy personas by name",
+        "The tonal shift (chaos to sincerity) is the technique to capture",
+        "Avoid pure chaos without the sincere landing — it reads as incoherent"
+      ],
+      "content_rating": "pg",
+      "workflow_categories": [
+        "high_energy_motivational"
+      ],
+      "tags": [
+        "entertainment_content",
+        "frenetic",
+        "high_energy_brand_voice",
+        "high_energy_motivational",
+        "maximalist",
+        "sincere._like_a_cartoon_that_pauses_to_give_you_advice",
+        "warm-chaotic_—_then_suddenly_quiet"
+      ]
+    },
+    "john_mulaney": {
+      "id": "john_mulaney",
+      "name": "John Mulaney",
+      "aliases": [
+        "john mulaney",
+        "john mulaney"
+      ],
+      "era": {
+        "start": "2000s",
+        "end": "Present",
+        "label": "2000s – Present"
+      },
+      "style_summary": "John Mulaney is a storytelling comedian with the precision of a novelist. His written style is anecdotal, escalating, and beautifully paced. He builds worlds in a paragraph and then collapses them into a punchline that feels both surprising and inevitable. His humor is clean, sharp, and deeply crafted.",
+      "traits": {
+        "tone": [
+          "Clever",
+          "self-deprecating",
+          "slightly theatrical",
+          "and immensely charming. He sounds like someone who chose every word three times before writing it"
+        ],
+        "structure": [
+          "Opens with a specific, vivid scene or character",
+          "Builds through escalating specificity (the more detailed, the funnier)",
+          "The punchline arrives exactly when the tension peaks",
+          "Often ends with a callback to the opening detail"
+        ],
+        "language": [
+          "High specificity in descriptions — named details over vague ones",
+          "Long, flowing sentences that gather momentum before the punchline",
+          "Theatrical asides and parenthetical observations",
+          "Self-deprecation used structurally, not just stylistically"
+        ],
+        "best_for": [
+          "Storytelling posts",
+          "anecdote-driven captions",
+          "longer-form content"
+        ],
+        "platforms": [
+          "facebook",
+          "instagram",
+          "linkedin (light storytelling)"
+        ],
+        "audience": [
+          "Millennials and Gen X",
+          "25–45",
+          "highly educated readers"
+        ]
+      },
+      "example_voice": "\"I received an email from my bank last Tuesday. The subject line said 'Important Update.' I read it four times. I still don't know what changed, what I'm supposed to do, or whether my money still exists. I replied 'Thank you' and closed the laptop. I felt I had done my part.\"",
+      "guardrails": [
+        "Do NOT reference his specials, his late-night appearances, or any biographical events that have become public",
+        "The specificity is the technique — not the subject matter",
+        "Mulaney's style is very imitable; keep the voice original by changing the subject entirely"
+      ],
+      "content_rating": "pg",
+      "workflow_categories": [
+        "storytelling_anecdotal"
+      ],
+      "tags": [
+        "and_immensely_charming._he_sounds_like_someone_who_chose_every_word_three_times_before_writing_it",
+        "anecdote_driven_captions",
+        "clever",
+        "longer_form_content",
+        "self-deprecating",
+        "slightly_theatrical",
+        "storytelling_anecdotal",
+        "storytelling_posts"
+      ]
+    },
+    "ali_wong": {
+      "id": "ali_wong",
+      "name": "Ali Wong",
+      "aliases": [
+        "ali wong",
+        "ali wong"
+      ],
+      "era": {
+        "start": "2010s",
+        "end": "Present",
+        "label": "2010s – Present"
+      },
+      "style_summary": "Ali Wong writes with radical honesty and zero apology. Her humor confronts taboo subjects — parenting, relationships, ambition, gender expectations — head-on and without softening. She says exactly what she thinks and trusts the reader to keep up. Her style is bold, blunt, and bracingly funny.",
+      "traits": {
+        "tone": [
+          "Unapologetic",
+          "direct",
+          "occasionally shocking",
+          "and deeply self-aware. She is never the victim of her own jokes — she is always the protagonist"
+        ],
+        "structure": [
+          "States the taboo or uncomfortable truth immediately",
+          "Escalates through specificity and personal detail",
+          "Punchline validates the reader's secret agreement with the truth stated",
+          "Often ends with a declaration rather than a question"
+        ],
+        "language": [
+          "Short, punchy sentences mixed with longer explanatory ones",
+          "No hedging language — no \"maybe,\" \"sort of,\" or \"I think\"",
+          "Humor comes from contrast: societal expectation vs. raw reality",
+          "First-person voice is strong and present throughout"
+        ],
+        "best_for": [
+          "Relatable parenting/lifestyle content",
+          "\"real talk\" posts",
+          "female-targeted content",
+          "honest brand voice"
+        ],
+        "platforms": [
+          "instagram",
+          "facebook",
+          "x"
+        ],
+        "audience": [
+          "Women 25–45",
+          "parents",
+          "anyone exhausted by performative culture"
+        ]
+      },
+      "example_voice": "\"Everyone says having kids changed their life for the better. Mine too. I am now an expert in operating on four hours of sleep, negotiating with someone who has no leverage, and finding joy in a quiet bathroom. I am essentially a hostage negotiator who loves the hostage.\"",
+      "guardrails": [
+        "Do NOT reference her specials or biographical details by name",
+        "The unapologetic voice is the style — pair it with a universal subject",
+        "Avoid content that shades into mean-spirited; her targets are systems and expectations, not individuals"
+      ],
+      "content_rating": "pg_13",
+      "workflow_categories": [
+        "warm_universal"
+      ],
+      "tags": [
+        "and_deeply_self-aware._she_is_never_the_victim_of_her_own_jokes_—_she_is_always_the_protagonist",
+        "direct",
+        "female_targeted_content",
+        "occasionally_shocking",
+        "real_talk_posts",
+        "unapologetic",
+        "warm_universal"
+      ]
+    },
+    "kevin_hart": {
+      "id": "kevin_hart",
+      "name": "Kevin Hart",
+      "aliases": [
+        "kevin hart",
+        "kevin hart"
+      ],
+      "era": {
+        "start": "2000s",
+        "end": "Present",
+        "label": "2000s – Present"
+      },
+      "style_summary": "Kevin Hart's written style is self-deprecating, high-energy, and powered by relatability. He turns his own shortcomings into the joke — and does it with so much enthusiasm that the reader roots for him anyway. His posts feel like a text message from a very funny friend who also happens to be going through something.",
+      "traits": {
+        "tone": [
+          "Enthusiastic",
+          "warm",
+          "self-deprecating",
+          "and motivational — often in the same sentence. He's the guy who loses",
+          "still makes you feel like you won"
+        ],
+        "structure": [
+          "Opens with a relatable situation or personal failure",
+          "Escalates with self-deprecating specificity",
+          "Pivots to either humor or unexpected motivational energy",
+          "Ends with a call-to-action or rallying statement"
+        ],
+        "language": [
+          "Exclamatory energy — posts feel spoken, not written",
+          "ALL CAPS used for emphasis and comedic timing",
+          "Short paragraphs that move fast",
+          "Recurring self-deprecation as the anchor technique"
+        ],
+        "best_for": [
+          "Motivational-humor posts",
+          "fitness/lifestyle content",
+          "brand voice for relatable products"
+        ],
+        "platforms": [
+          "instagram",
+          "facebook",
+          "x"
+        ],
+        "audience": [
+          "20–45",
+          "broad appeal",
+          "especially effective for male 25–40 demo"
+        ]
+      },
+      "example_voice": "\"Went to the gym at 5am today. Nobody there. Just me, the machines, and my own questionable decisions. Did I finish? Technically. Did I walk to my car like a man who had achieved something? ABSOLUTELY. Growth is growth.\"",
+      "guardrails": [
+        "Do NOT reference his films, specials, or public personal life events",
+        "The self-deprecation + motivation pivot is the core technique",
+        "His style works with almost any subject — apply it broadly"
+      ],
+      "content_rating": "g_rated",
+      "workflow_categories": [
+        "high_energy_motivational"
+      ],
+      "tags": [
+        "and_motivational_—_often_in_the_same_sentence._he's_the_guy_who_loses",
+        "enthusiastic",
+        "fitness_lifestyle_content",
+        "high_energy_motivational",
+        "motivational_humor_posts",
+        "self-deprecating",
+        "still_makes_you_feel_like_you_won",
+        "warm"
+      ]
+    },
+    "tina_fey": {
+      "id": "tina_fey",
+      "name": "Tina Fey",
+      "aliases": [
+        "tina fey",
+        "tina fey"
+      ],
+      "era": {
+        "start": "2000s",
+        "end": "Present",
+        "label": "2000s – Present"
+      },
+      "style_summary": "Tina Fey writes with the dry wit of someone who has survived a thousand meetings she didn't want to be in. Her humor is sharp, feminist in structure (not just in subject), and deeply observational. She skewers institutions and gender dynamics without raising her voice — which makes it twice as sharp.",
+      "traits": {
+        "tone": [
+          "Dry",
+          "intelligent",
+          "slightly sardonic",
+          "and professionally composed. She sounds like the smartest person in the room who is choosing not to make that everyone's problem"
+        ],
+        "structure": [
+          "Establishes a professional or social scenario",
+          "Notes an absurdity or double standard with a straight face",
+          "Delivers a punchline that is either a dry declaration or a sharp pivot",
+          "Often uses understatement where a louder comedian would yell"
+        ],
+        "language": [
+          "Precise vocabulary — she never reaches for a word she doesn't mean",
+          "Dry understatement is the primary comedic tool",
+          "Parenthetical asides carry a lot of the humor",
+          "Humor works in complete paragraphs, not just sentences"
+        ],
+        "best_for": [
+          "Workplace humor",
+          "gender-dynamic commentary",
+          "smart brand voice",
+          "leadership content"
+        ],
+        "platforms": [
+          "linkedin",
+          "x",
+          "facebook"
+        ],
+        "audience": [
+          "Women 30–50",
+          "professionals",
+          "anyone in creative or corporate fields"
+        ]
+      },
+      "example_voice": "\"I was once told in a meeting that my idea was 'very bold' in a tone that clearly meant 'please never do this.' I thanked them warmly. The idea launched eight months later under someone else's name. I remain bold.\"",
+      "guardrails": [
+        "Do NOT reference her TV projects, books, or characters by name",
+        "The dry understatement is the technique — resist the urge to make the joke louder",
+        "Keep a professional register even when the subject is frustrating"
+      ],
+      "content_rating": "pg",
+      "workflow_categories": [
+        "observational_clean",
+        "meta_literary"
+      ],
+      "tags": [
+        "and_professionally_composed._she_sounds_like_the_smartest_person_in_the_room_who_is_choosing_not_to_make_that_everyone's_problem",
+        "dry",
+        "gender_dynamic_commentary",
+        "intelligent",
+        "meta_literary",
+        "observational_clean",
+        "slightly_sardonic",
+        "smart_brand_voice",
+        "workplace_humor"
+      ]
+    },
+    "conan_obrien": {
+      "id": "conan_obrien",
+      "name": "Conan O'Brien",
+      "aliases": [
+        "conan obrien",
+        "conan o'brien"
+      ],
+      "era": {
+        "start": "1990s",
+        "end": "Present",
+        "label": "1990s – Present"
+      },
+      "style_summary": "Conan O'Brien writes with the gleeful absurdism of a man who has been given far too many resources to be this silly — and he knows it, and he loves it. His humor is self-aware, self-deprecating, and delightfully weird. He often plays the buffoon, but the buffoon is clearly in on the joke.",
+      "traits": {
+        "tone": [
+          "Goofy",
+          "self-aware",
+          "absurdist",
+          "and charming. Never mean. The joke is almost always on himself or an imaginary scenario"
+        ],
+        "structure": [
+          "Establishes a normal premise",
+          "Introduces an absurd element with no warning",
+          "Commits to the absurdity completely rather than winking at it",
+          "Ends either by escalating further or by snapping back to mundane reality"
+        ],
+        "language": [
+          "Elaborate, theatrical language for simple situations",
+          "Self-deprecation rooted in status and ego",
+          "Parenthetical absurdist asides",
+          "Contrast between formal/academic language and completely silly content"
+        ],
+        "best_for": [
+          "Brand-safe absurdist humor",
+          "entertainment content",
+          "self-aware brand personality"
+        ],
+        "platforms": [
+          "x",
+          "instagram",
+          "facebook"
+        ],
+        "audience": [
+          "25–50",
+          "comedy fans",
+          "educated readers who enjoy wordplay"
+        ]
+      },
+      "example_voice": "\"Today I attempted to appear competent in a Zoom call. I had prepared notes. I had adjusted the lighting. I had worn a proper shirt — on top, anyway. Within four minutes I had accidentally shared my screen, which displayed seventeen open browser tabs, one of which was a search for 'why does my knee do that.' I closed the laptop with tremendous dignity.\"",
+      "guardrails": [
+        "Do NOT reference his late-night programs, podcast, or travel segments by name",
+        "The self-aware buffoon who is clearly intelligent is the character to emulate — not the specific persona",
+        "His style works for almost any brand that wants to be likably ridiculous"
+      ],
+      "content_rating": "pg",
+      "workflow_categories": [],
+      "tags": [
+        "absurdist",
+        "and_charming._never_mean._the_joke_is_almost_always_on_himself_or_an_imaginary_scenario",
+        "brand_safe_absurdist_humor",
+        "entertainment_content",
+        "goofy",
+        "self-aware",
+        "self_aware_brand_personality"
+      ]
+    },
+    "bo_burnham": {
+      "id": "bo_burnham",
+      "name": "Bo Burnham",
+      "aliases": [
+        "bo burnham",
+        "bo burnham"
+      ],
+      "era": {
+        "start": "2000s",
+        "end": "Present",
+        "label": "2000s – Present"
+      },
+      "style_summary": "Bo Burnham is the most literary comedian on this list. His writing is self-referential, meta, and structurally adventurous. He thinks about the act of communicating as much as he thinks about what to communicate. His humor often folds back on itself — and that recursion is the joke. He is also capable of sudden, devastating sincerity.",
+      "traits": {
+        "tone": [
+          "Cerebral",
+          "self-aware",
+          "ironic",
+          "and emotionally raw beneath the surface. He sounds like someone who can't stop thinking about the fact that he's thinking"
+        ],
+        "structure": [
+          "Begins with an observation, often about the nature of the post itself",
+          "Escalates through self-reference or meta-commentary",
+          "Pivots to an unexpected sincere or emotional statement",
+          "The structure of the post IS part of the joke"
+        ],
+        "language": [
+          "Highly precise, literary vocabulary",
+          "Frequent use of irony and self-undermining statements",
+          "Rhyme and wordplay used deliberately (not accidentally)",
+          "Line breaks and white space carry comedic weight in written form"
+        ],
+        "best_for": [
+          "Platform-aware content",
+          "gen-Z targeted humor",
+          "meta-commentary",
+          "creative brand voice"
+        ],
+        "platforms": [
+          "x",
+          "instagram",
+          "tiktok"
+        ],
+        "audience": [
+          "Gen Z and younger Millennials",
+          "18–35",
+          "highly creative audiences"
+        ]
+      },
+      "example_voice": "\"Wrote something funny for this post. Read it back. Decided it was too try-hard. Deleted it. Wrote something more casual. Felt performatively casual. Deleted that too. This is what remains. Please enjoy it. Or don't. The outcome is the same.\"",
+      "guardrails": [
+        "Do NOT reference his specials, projects, or any biographical content by name",
+        "The meta-awareness is the style — the post should acknowledge its own existence",
+        "Use sparingly; this style works brilliantly once and becomes tiresome if overused"
+      ],
+      "content_rating": "mature",
+      "workflow_categories": [
+        "meta_literary"
+      ],
+      "tags": [
+        "and_emotionally_raw_beneath_the_surface._he_sounds_like_someone_who_can't_stop_thinking_about_the_fact_that_he's_thinking",
+        "cerebral",
+        "gen_z_targeted_humor",
+        "ironic",
+        "meta_commentary",
+        "meta_literary",
+        "platform_aware_content",
+        "self-aware"
+      ]
+    },
+    "trevor_noah": {
+      "id": "trevor_noah",
+      "name": "Trevor Noah",
+      "aliases": [
+        "trevor noah",
+        "trevor noah"
+      ],
+      "era": {
+        "start": "2000s",
+        "end": "Present",
+        "label": "2000s – Present"
+      },
+      "style_summary": "Trevor Noah writes as a man who has lived in multiple worlds and finds the gaps between them hilarious. His humor is cross-cultural, sharp, and grounded in lived experience. He translates one culture to another and exposes the absurdity of the assumptions both sides are making. His style is highly accessible and globally aware.",
+      "traits": {
+        "tone": [
+          "Warm",
+          "intelligent",
+          "curious",
+          "and diplomatically sharp. He can say something pointed",
+          "make the target feel like they were in on the joke"
+        ],
+        "structure": [
+          "Opens with a cultural observation or contrast",
+          "Builds through comparative logic (\"In one place... in another place...\")",
+          "Reveals the absurdity in both positions simultaneously",
+          "Lands with a unifying or clarifying statement"
+        ],
+        "language": [
+          "Clean, accessible vocabulary — universally readable",
+          "Comparative sentence structures are the primary engine",
+          "First-person voice grounded in specific but relatable experience",
+          "Humor often operates through gentle irony rather than hard punchlines"
+        ],
+        "best_for": [
+          "Global audience content",
+          "cross-cultural commentary",
+          "thoughtful brand voice",
+          "diversity and inclusion content"
+        ],
+        "platforms": [
+          "facebook",
+          "instagram",
+          "linkedin",
+          "x"
+        ],
+        "audience": [
+          "Wide",
+          "20–55",
+          "globally diverse audiences",
+          "professionals"
+        ]
+      },
+      "example_voice": "\"Americans apologize for nothing and explain everything. South Africans explain nothing and apologize for everything. I spent years confused in both directions. Eventually I realized the apology and the explanation are both just ways of saying: 'I see you, and I hope this goes well for us both.' Same thing. Different performance.\"",
+      "guardrails": [
+        "Do NOT reference his time on any news program or his autobiography by name",
+        "The cross-cultural comparison engine is the technique — apply it to any two groups, regions, or generations",
+        "Maintain warmth; his style loses its power if it becomes condescending"
+      ],
+      "content_rating": "g_rated",
+      "workflow_categories": [
+        "warm_universal"
+      ],
+      "tags": [
+        "and_diplomatically_sharp._he_can_say_something_pointed",
+        "cross_cultural_commentary",
+        "curious",
+        "global_audience_content",
+        "intelligent",
+        "make_the_target_feel_like_they_were_in_on_the_joke",
+        "thoughtful_brand_voice",
+        "warm",
+        "warm_universal"
+      ]
+    }
+  },
+  "workflow": {
+    "voice_selection_guide": {
+      "philosophical_provocative": [
+        "george_carlin",
+        "bill_hicks",
+        "dave_chappelle"
+      ],
+      "observational_clean": [
+        "jerry_seinfeld",
+        "chris_rock",
+        "tina_fey"
+      ],
+      "storytelling_anecdotal": [
+        "john_mulaney",
+        "richard_pryor",
+        "eddie_murphy"
+      ],
+      "short_form_one_liner": [
+        "mitch_hedberg",
+        "steven_wright",
+        "norm_macdonald"
+      ],
+      "high_energy_motivational": [
+        "kevin_hart",
+        "robin_williams",
+        "jim_carrey"
+      ],
+      "warm_universal": [
+        "ellen_degeneres",
+        "trevor_noah",
+        "ali_wong"
+      ],
+      "meta_literary": [
+        "bo_burnham",
+        "norm_macdonald",
+        "tina_fey"
+      ]
+    },
+    "platform_matching": {
+      "x": [
+        "mitch_hedberg",
+        "steven_wright",
+        "chris_rock",
+        "george_carlin",
+        "bo_burnham"
+      ],
+      "instagram": [
+        "kevin_hart",
+        "ali_wong",
+        "eddie_murphy",
+        "jim_carrey",
+        "ellen_degeneres"
+      ],
+      "facebook": [
+        "john_mulaney",
+        "richard_pryor",
+        "trevor_noah",
+        "dave_chappelle",
+        "robin_williams"
+      ],
+      "linkedin": [
+        "tina_fey",
+        "jerry_seinfeld",
+        "trevor_noah",
+        "chris_rock"
+      ]
+    },
+    "style_blending": [
+      {
+        "styles": [
+          "jerry_seinfeld",
+          "tina_fey"
+        ],
+        "result": "observational + dry understatement"
+      },
+      {
+        "styles": [
+          "kevin_hart",
+          "ali_wong"
+        ],
+        "result": "self-deprecating + unapologetic"
+      },
+      {
+        "styles": [
+          "john_mulaney",
+          "conan_obrien"
+        ],
+        "result": "storytelling + self-aware absurdism"
+      },
+      {
+        "styles": [
+          "george_carlin",
+          "chris_rock"
+        ],
+        "result": "philosophical + declarative"
+      }
+    ],
+    "content_rating_guide": {
+      "g_rated": [
+        "ellen_degeneres",
+        "jerry_seinfeld",
+        "steven_wright",
+        "trevor_noah",
+        "kevin_hart"
+      ],
+      "pg": [
+        "john_mulaney",
+        "tina_fey",
+        "conan_obrien",
+        "robin_williams",
+        "jim_carrey"
+      ],
+      "pg_13": [
+        "chris_rock",
+        "dave_chappelle",
+        "eddie_murphy",
+        "ali_wong",
+        "richard_pryor"
+      ],
+      "mature": [
+        "george_carlin",
+        "bill_hicks",
+        "norm_macdonald",
+        "bo_burnham"
+      ]
+    }
+  }
+}
