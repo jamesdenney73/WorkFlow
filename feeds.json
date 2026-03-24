@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "name": "Cybersecurity RSS Feed List",
+    "version": "1.0",
+    "description": "Curated RSS feeds for cybersecurity news aggregation"
+  },
+  "feeds": [
+    {
+      "id": "the_hackers_news",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "category": ["general", "threats", "security"],
+      "priority": "high"
+    },
+    {
+      "id": "bleeping_computer",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "category": ["general", "malware", "incidents"],
+      "priority": "high"
+    },
+    {
+      "id": "dark_reading",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "category": ["enterprise", "analysis"],
+      "priority": "high"
+    },
+    {
+      "id": "krebs_on_security",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "category": ["investigative", "deep-dive"],
+      "priority": "high"
+    },
+    {
+      "id": "threatpost",
+      "name": "Threatpost",
+      "url": "https://threatpost.com/feed/",
+      "category": ["threats", "vulnerabilities"],
+      "priority": "medium"
+    },
+    {
+      "id": "securelist",
+      "name": "Kaspersky Securelist",
+      "url": "https://securelist.com/feed/",
+      "category": ["research", "malware", "analysis"],
+      "priority": "high"
+    },
+    {
+      "id": "troy_hunt",
+      "name": "Troy Hunt",
+      "url": "https://www.troyhunt.com/rss/",
+      "category": ["breaches", "identity", "education"],
+      "priority": "high"
+    },
+    {
+      "id": "schneier",
+      "name": "Schneier on Security",
+      "url": "https://www.schneier.com/feed/atom/",
+      "category": ["analysis", "policy", "cryptography"],
+      "priority": "medium"
+    },
+    {
+      "id": "graham_cluley",
+      "name": "Graham Cluley",
+      "url": "https://grahamcluley.com/feed/",
+      "category": ["awareness", "phishing", "consumer"],
+      "priority": "medium"
+    },
+    {
+      "id": "eset_blog",
+      "name": "ESET Blog",
+      "url": "https://feeds.feedburner.com/eset/blog",
+      "category": ["research", "threats"],
+      "priority": "medium"
+    },
+    {
+      "id": "abuse_ch",
+      "name": "Abuse.ch",
+      "url": "https://abuse.ch/rss/",
+      "category": ["threat-intel", "ioc", "malware"],
+      "priority": "high"
+    }
+  ]
+}
